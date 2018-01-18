@@ -1,0 +1,6 @@
+Bonjour {prenom} {nom}
+Nous vous confirmons que nous avons bien reçu votre demande de réservation.
+
+Pour rappel, vous avez demandé une réservation de vélo pour la période du {date_debut} au {date_fin}
+
+Rappel : Vous ne pourrez venir retirez votre vélo que lorsque vous aurez effectué votre paiement.

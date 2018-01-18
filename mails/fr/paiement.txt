@@ -1,0 +1,4 @@
+Bonjour {prenom} {nom}
+Nous vous confirmons que vous avez bien effectué une réservation pour la période du {date_debut} au {date_fin}
+Le digicode pour retirer la batterie de votre vélo est le : {digicode}
+Rappel : Vous ne pourrez venir retirez votre vélo que lorsque vous aurez effectué votre paiement.

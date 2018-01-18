@@ -1,0 +1,383 @@
+.col-xs-offset-3 {
+	margin-left: 25%;
+}
+
+.cms-11 .columns-container {
+	background-image: url(http://www.siblu.fr/sites/default/files/1410x610-vc.jpg);	
+}
+
+.cms-11 .columns-container .row {	
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	font-weight: bold;
+}
+
+.tarifs_dropnride h2 {
+	text-align: center; 
+	margin-bottom: 2%;
+	padding-bottom: 2%;
+	border-bottom: 4px solid #fc0f73;
+}
+
+.tarifs_dropnride div {
+	margin-bottom: 3%;
+}
+
+/*
+.tarifs_dropnride img {
+	border: 2px solid #fc0f73;
+	padding: 2px;
+	width: 18%; 
+}
+*/
+
+#index .tarifs_dropnride img {
+	border: none;
+	padding: 0px;
+}
+
+#index .columns-container {
+	background: url(http://www.siblu.fr/sites/default/files/1410x610-vc.jpg) no-repeat center fixed; 
+	padding-top: 20px;
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+}
+
+#index #columns {
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	font-weight: bold;
+}
+
+#index #columns a {
+	color: white;
+}
+
+
+#index .tarifs_dropnride button {
+	background: #0155a4;
+	border: none;
+	padding: 2%;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: white;
+}
+
+.tarifs_dropnride span {
+	margin-top: 11%;
+}
+
+.reservation .intro p {
+	text-align: center;
+}
+
+.reservation span {
+	margin-bottom: 25px;
+}
+
+.cms-6 .columns-container {
+	background: url(http://www.siblu.fr/sites/default/files/1410x610_0001b_lette-fleurie.jpg) no-repeat center fixed; 
+	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+	background-size: cover; /* version standardisée */
+}
+
+.reservation {
+	background-color: rgba(0,0,0,0.6);
+	/* height: 400px; */
+	color: black;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.intro {
+	margin-top: 3%;
+	margin-bottom: 3%;
+	color: white;
+}
+
+.reservation_choices {
+	margin-bottom: 3%;
+	background-color: rgba(255,255,255,0.4);
+	padding: 2%;
+}
+
+.reservation_choices select, .reservation_choices input[type="textarea"], .reservation_choices #datepicker {
+	width: 100%;
+}
+
+.reservation_choices .submit {
+	background: #fc0f73;
+	border: none;
+	color: white;
+	padding: 2%;
+}
+
+.option_choices {
+	padding: 1%;
+}
+
+.option_choices p {
+	text-align: center;
+	margin-bottom: 5%;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.option_choices label, .option_choices span {
+	margin-left: 1%;
+}
+
+.option_choices .submit {
+	background: #fc0f73;
+	border: none;
+	color: white;
+	font-weight: bold;
+	padding: 3%;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	width: 80%;
+}
+
+#containerMap {
+	padding: 0;
+}
+
+
+#toggleArrow {
+	z-index: 30;
+	cursor: pointer;
+	position: relative;
+	height: 50%;
+	width: 30px;
+	top: 25%;
+	left: 5px;
+	margin: 0;
+}
+
+#toggleArrow img {
+	width: calc(100% / 2);
+	height: 100% !important;
+	margin: 0 !important;
+}
+
+#wholeMap {
+	font: inherit;
+}
+
+.lightBorderBottom {
+	border-bottom: 4px solid #DFDFDF;
+}
+
+.hardBorderBottom {
+	border-bottom: 3px solid #666666;
+}
+
+#sidebarMap {
+	margin: 0;
+	padding: 0;
+	height: 540px;
+	background-color: #F6F6F6;
+}
+
+#infoWindow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #F6F6F6;
+	width: 0;
+	overflow: hidden;
+	word-wrap: break-word;
+	-moz-transition: .4s all;
+	-webkit-transition: .4s all;
+	transition: .4s all;
+	height: 540px;
+}
+
+#infoImage {
+	width: 350px;
+	height: 35%;
+	overflow: hidden;
+	float: left;
+	position: relative;
+	z-index: 5;
+}
+
+#infoImage img {
+	transition: 0.5s;
+	margin: 0 !important;
+	float: left;
+	height: 100%;
+	width: 100%;
+}
+
+#infoImage img:hover {
+	transform: scale(2);
+}
+
+#infoTitle {
+	height: 15%;
+	width: 100%;
+	color: #fff;
+	background-color: #333333;
+}
+
+#namePlace {
+	position: absolute;
+	top: 5%;
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+	width: 100%; 
+	text-transform: inherit;
+}
+
+#infoText {
+	width: 100%;
+	position: absolute;
+	display: block;
+	overflow: hidden;
+	top: 35%;
+	z-index: 10;
+	height: 65%;
+	text-transform: inherit;
+	background-color: #F6F6F6;
+}
+
+#infoDescription {
+	width: inherit;
+	height: 85%;
+	overflow: hidden;
+	text-align: center;
+}
+
+.categorieMap {
+	text-align: center;
+	padding: 1em;
+	color: #fff;
+	background-color: #333333;
+}
+
+.listePartenaires {
+	padding-left: 1em;
+}
+
+.listePartenaires div {
+	cursor: pointer;
+}
+
+.listePartenaires div:hover {
+	background-color: #ECECEC;
+}
+
+.listePartenaires div img {
+	display: inline-block;
+	transform: translateY(6px);
+	width: 23px;
+	height: 23px;
+}
+
+.listePartenaires div p {
+	font-weight: bold;
+	display: inline-block;
+	margin-left: 0.5em;
+}
+
+.infoLocation {
+	display: inline-block;
+	float: right;
+}
+
+.infoLocation img {
+	margin-left: 10px;
+	padding-left: 5px;
+}
+
+#geolocationGM {
+	text-align: center;
+	position: relative;
+	float: left;
+	color: rgb(86, 86, 86);
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 11px;
+	background-color: rgb(255, 255, 255);
+	padding: 8px;
+	border-bottom-right-radius: 2px;
+	border-top-right-radius: 2px;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+	border-left: 0px;
+	min-width: 39px;
+	cursor: pointer;
+}
+
+
+#geolocationGM:hover {
+	background-color: rgb(235, 235, 235);
+	color: rgb(0, 0, 0);
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+}
+
+div.gmnoprint {
+	opacity: 0;
+}
+
+.prix_casses {
+	position: absolute;
+	top: -47px;
+	left: -40px; 
+	z-index: 1;
+}
+
+.initiative .madeinfrance {
+	position: absolute;
+	left: 300px;
+	top: -20px;
+	width: 10%;
+	height: auto;
+    transform: rotate(-10deg);
+}
+
+.strikethrough {
+  position: relative;
+}
+.strikethrough:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 45%;
+  right: 0;
+  border-top: 3px solid #fc0f73;
+
+  -webkit-transform:rotate(-45deg);
+  -moz-transform:rotate(-45deg);
+  -ms-transform:rotate(-45deg);
+  -o-transform:rotate(-45deg);
+  transform:rotate(-45deg);
+}
+
+#listReservations td, #listReservations th {
+	text-align: center;
+}
+
+@media screen and (max-width: 780px)
+{
+	.initiative .madeinfrance {
+		left: 150px
+	}
+
+	.prix_casses {		
+    	left: -39px;
+    	width: 25%;
+    	top: -34px;
+	}
+}
+
+@media screen and (max-width: 380px)
+{
+	.initiative .madeinfrance {
+		left: 0px;
+		width: 25%;
+		top: 20px;
+	}
+}
